@@ -17,7 +17,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  #Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -41,9 +41,6 @@ social-network-links:
   email: "harryqiao0911@gmail.com"
   facebook: harry.qiao.5
   github: harryqiao0911
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
 #  stackoverflow: "3943160/daattali"
   snapchat: hqiao0911
   instagram: harryqiao0911
@@ -52,11 +49,6 @@ social-network-links:
   telephone: +19177697881
 #  steam: deanat78
   twitch: harryqiao0911
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
-#  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 
 # If you want to show a link to an RSS in the footer, add the site description here.
