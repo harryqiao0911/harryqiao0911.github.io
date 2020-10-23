@@ -14,17 +14,30 @@ The study I examined was  “Detection of subjects and brain regions related to 
 
 ### Questions I Asked and Answered Myself
 
-1. Which properties are being tracked?
-⋅⋅* The OASIS dataset tracks the patient’s brain MRI and PET imaging as well as their dementia and Apolipoprotein E (APOE) status and other characteristics such as age, favored hand, race etc. 
-2. Which properties are being left out?
-⋅⋅* The properties tracked in this dataset suffice and no important properties are left out. 
-3. Which data points make it to the final dataset?
-⋅⋅* Although there are many imaging sessions, some images do not have a corresponding numerical data that keep track of dementia and APOE status. For this study, only those images would not be used in training the algorithms. 
-4. What incentives are driving people to collect this data?
-⋅⋅* The goal of this dataset is to make neuroimaging of the brain freely available to the scientific community, thus sparking future discoveries in basic and clinical neuroscience
-5. How was this data collected?
-⋅⋅* The data was collected when patients participated in several ongoing studies in the Washington University Knight Alzheimer Disease Research Center over the course of 15 years.
-6. Who is funding the collection of this data?
-⋅⋅* Although the dataset’s official website did not specify the group or individual funding the collection of this data, I would assume that an ongoing study that lasted as long as 15 years has a stable source of funding. 
-7. How accessible is this dataset?
-⋅⋅* This data set is open to the public. To access this dataset, one only needs to sign up in a form. 
+*   Which properties are being tracked?
+
+    The OASIS dataset tracks the patient’s brain MRI and PET imaging as well as their dementia and Apolipoprotein E (APOE) status and other characteristics such as age, favored hand, race etc. 
+
+*   Which properties are being left out?
+
+    The properties tracked in this dataset suffice and no important properties are left out. 
+
+*   Which data points make it to the final dataset?
+
+    Although there are many imaging sessions, some images do not have a corresponding numerical data that keep track of dementia and APOE status. For this study, only those images would not be used in training the algorithms. 
+
+*   What incentives are driving people to collect this data?
+
+    The goal of this dataset is to make neuroimaging of the brain freely available to the scientific community, thus sparking future discoveries in basic and clinical neuroscience.
+
+*   How was this data collected?
+
+    The data was collected when patients participated in several ongoing studies in the Washington University Knight Alzheimer Disease Research Center over the course of 15 years.
+    
+*   Who is funding the collection of this data?
+
+    Although the dataset’s official website did not specify the group or individual funding the collection of this data, I would assume that an ongoing study that lasted as long as 15 years has a stable source of funding. 
+
+*   How accessible is this dataset?
+
+    This data set is open to the public. To access this dataset, one only needs to sign up in a form. 
