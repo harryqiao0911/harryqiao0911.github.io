@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Iris Lab
-subtitle: My First Lab Assignment
+title: Postfix Lab
 tags: [labs]
 comments: true
 ---
