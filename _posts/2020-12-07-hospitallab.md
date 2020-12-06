@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hospital ¬ab
+title: Hospital Lab
 tags: [labs]
 comments: true
 ---
