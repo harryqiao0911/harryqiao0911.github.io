@@ -10,23 +10,23 @@ In this lab, I worked with the COVID-19 vaccination dataset. The variables that 
 
 Let’s first look at daily vaccination and daily vaccination per million. Using the .describe() method we learned on the seaborn google docs, I was able to print the summary statistics easily, instead of using methods written by myself. These are the summary statistics of the two variables. 
 
-![Summary Stats](/assets/img/dlab1)
+![Summary Stats](/assets/img/dlab1.png)
 
 After doing some research on seaborn API reference, I was able to find the plots I wanted to graph. Some graphs required seaborn 0.11.1, and I was able to install that version specifically on the terminal (actually did some research on how to do so). For these two variables, I graphed with violin plot and histogram. When I first started this project, I only did daily vaccination and found that the variable was very right skewed. The standard deviation and range were also very large. It makes sense, because there are not that many countries that have large populations as well as advanced technology or money to vaccinate a large number of people. Then I was thinking about how to eliminate the role of population. When I repeated the same process with the variable daily vaccination per million, I once again came to the conclusion that the dataset was also very right skewed with a very large standard deviation and range.
 
-![Violin1](/assets/img/dlab2)
+![Violin1](/assets/img/dlab2.png)
 
-![Violin2](/assets/img/dlab3)
+![Violin2](/assets/img/dlab3.png)
 
-![Hist1](/assets/img/dlab4)
+![Hist1](/assets/img/dlab4.png)
 
-![Hist2](/assets/img/dlab5)
+![Hist2](/assets/img/dlab5.png)
 
 Then I looked at the relationship between the number of people vaccinated and the number of people fully vaccinated. I hypothesized that there was a positive linear relationship between the two variables. I decided to graph the two variables on a scatter plot with people fully vaccinated on the x axis and people vaccinated on the y axis. This way the slope of the best fit line would be a good estimate of how many people vaccinated were actually fully vaccinated. On seaborn API reference, there is a method that plot all the data points and draw a linear regression model fit. With the best fit line, the slope can be estimated to be 5.83. This means that for every 6 people vaccinated, 1 is fully vaccinated. Using methods written in the previous assignments, I found the correlation between the two variables to be 0.796, which means there is a somewhat positive linear relationship. 
 
-![Scatter](/assets/img/dlab6)
+![Scatter](/assets/img/dlab6.png)
 
-![Best Fit](/assets/img/dlab7)
+![Best Fit](/assets/img/dlab7.png)
 
 # Code
 ```python
